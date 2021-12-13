@@ -1,0 +1,8 @@
+{
+    "colorscheme": "dukedark-tc",
+    "ft:lua": {
+        "tabsize": 2
+    },
+    "statusformatr": "$(status.branch)",
+    "tabstospaces": true
+}
