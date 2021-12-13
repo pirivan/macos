@@ -108,5 +108,19 @@ function setup_dev {
 	[[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
 }
 
-# dev
+function setup_tmux {
+	# run tmux when starting a shell but only if we are not in a tmux session already
+	if [ -z ${TMUX+x} ]; then
+	    WHOAMI=$(whoami)
+	    if tmux has-session -t $WHOAMI 2>/dev/null; then
+	        tmux -2 attach-session -t $WHOAMI
+	    else
+	        tmux -2 new-session -s $WHOAMI
+	    fi
+	fi
+}
+
+# set up environment
 setup_dev
+setup_tmux
+
