@@ -120,7 +120,9 @@ function setup_tmux {
 	fi
 }
 
+# the jump "j" command'
+eval "$(jump shell)"
+
 # set up environment
 setup_dev
 setup_tmux
-
