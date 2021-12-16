@@ -7,8 +7,8 @@ alias m=micro
 alias n=nnn
 alias tree="exa --tree"
 
-# tell this script not to alias the ls command:
-# /Users/pirivan/.oh-my-zsh/lib/theme-and-appearance.zsh
+# tell the following script not to alias the ls command:
+# /Users/$USER/.oh-my-zsh/lib/theme-and-appearance.zsh
 export DISABLE_LS_COLORS="true"
 
 # misc
