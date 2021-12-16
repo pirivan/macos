@@ -16,7 +16,7 @@ A repo to host config files and notes about the setup of my Mac Pro laptop at Sh
 
 * Packages I installed explicitly:
   ```
-  brew install bat exa micro unzip rg tmux
+  brew install bat exa micro unzip rg tmux ...
   ```
 
   | Package  | Link      | Comment    |
@@ -26,6 +26,7 @@ A repo to host config files and notes about the setup of my Mac Pro laptop at Sh
   | jump     | https://github.com/gsamokovarov/jump | Quick dir navigator |
   | fd       | https://github.com/sharkdp/fd | Fast alternative to `find` |
   | glow     | https://github.com/charmbracelet/glow | Render markdown on the CLI |
+  | kitty    | https://github.com/kovidgoyal/kitty | A lightweight terminal emulator |
   | micro    | https://micro-editor.github.io/ | Because I don't like `vi`! |
   | nnn      | https://github.com/jarun/nnn | A terminal file manager |
   | rg       | https://github.com/BurntSushi/ripgrep | A replacement for `grep` |
