@@ -2,7 +2,7 @@
 # create soft-links to config files
 
 repo="$PWD"
-packages="git kitty micro tmux zsh"
+packages="dig git kitty micro tmux zsh"
 
 # go home
 cd
@@ -11,9 +11,13 @@ cd
 for p in $packages
 do
     case $p in
+    dig)
+        echo "dig"
+        ln -sf $repo/.digrc
+        ;;
     git)
         echo "no copying .gitconfig automatically, do it manually after editing"
-        echo "cp -f .gitconfig_user ~/.gitconfig"
+        echo "   -> cp -f .gitconfig_user ~/.gitconfig"
         ;;
     kitty)
         echo "kitty"
