@@ -31,6 +31,7 @@ The following are packages I installed explicitly using `homebrew`:
 | bat      | https://github.com/sharkdp/bat  | A supercharged `cat` |
 | exa      | https://the.exa.website/  | Alternative to `ls` |
 | fd       | https://github.com/sharkdp/fd | Fast alternative to `find` |
+| gh       | https://cli.github.com/ | The GitHub CLI |
 | glow     | https://github.com/charmbracelet/glow | Render markdown on the CLI |
 | jump     | https://github.com/gsamokovarov/jump | Quick dir navigator |
 | kitty    | https://github.com/kovidgoyal/kitty | A lightweight terminal emulator |
@@ -46,7 +47,7 @@ The following are packages I installed explicitly using `homebrew`:
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd glow jump kitty micro nnn unzip rg tmux
+  brew install bat exa fd gh glow jump kitty micro nnn unzip rg tmux
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files
