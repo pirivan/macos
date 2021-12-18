@@ -43,3 +43,7 @@ do
         ;;
     esac
 done
+
+# remap keyboard
+mkdir -p ~/Library/KeyBindings
+cp $repo/Library/KeyBindings/DefaultKeyBinding.dict ~/Library/KeyBindings
