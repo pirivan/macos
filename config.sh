@@ -38,8 +38,10 @@ do
         echo "zsh"
         mv -f .zshrc .zshrc_original
         mv -f .zshenv .zshenv_original
+        mv -f .zlogin .zlogin_original
         ln -sf $repo/.zshrc
         ln -sf $repo/.zshenv
+        ln -sf $repo/.zlogin
         ;;
     esac
 done

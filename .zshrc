@@ -108,21 +108,30 @@ function setup_dev {
 	[[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
 }
 
-function setup_tmux {
-	# run tmux when starting a shell but only if we are not in a tmux session already
-	if [ -z ${TMUX+x} ]; then
-	    WHOAMI=$(whoami)
-	    if tmux has-session -t $WHOAMI 2>/dev/null; then
-	        tmux -2 attach-session -t $WHOAMI
-	    else
-	        tmux -2 new-session -s $WHOAMI
-	    fi
-	fi
-}
-
 # set up environment
 setup_dev
-setup_tmux
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+fi
+export PYENV_ROOT=$(pyenv root)
+
+# misc
+export PAGER="bat -p"
+
+# aliases for interactive shells
+alias cat="bat -pP"
+alias gc-="git checkout -"
+alias gcmn="git commit --amend --no-edit"
+alias k=kubectl
+alias ls=exa
+alias m=micro
+alias n=nnn
+alias tree="exa --tree"
+
+# set PATH
+export PATH=$PYENV_ROOT/shims:$PATH
 
 # the jump "j" command'
 eval "$(jump shell)"
