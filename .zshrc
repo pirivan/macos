@@ -117,6 +117,9 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 export PYENV_ROOT=$(pyenv root)
 
+# cloudplatform: add Shopify clusters to your local kubernetes config
+export KUBECONFIG=${KUBECONFIG:+$KUBECONFIG:}/Users/pirivan/.kube/config:/Users/pirivan/.kube/config.shopify.cloudplatform
+
 # misc
 export PAGER="bat -p"
 

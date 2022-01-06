@@ -16,7 +16,11 @@ A repo to host config files and notes about the setup of my Mac Pro laptop at Sh
 
   `dev` installs `homebrew`, no need to install it manually.
 
-* TODO: install `gcloud` stuff, including the `cloudplatform` repo and setup scripts
+* Install `gcloud` SDK, including the `cloudplatform` repo and setup scripts:
+  ```sh
+  dev clone cloudplatform
+  dev up
+  ```
 
 * Clone this repository
 
