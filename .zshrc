@@ -130,6 +130,7 @@ alias gcmn="git commit --amend --no-edit"
 alias k=kubectl
 alias ls=exa
 alias m=micro
+alias more="bat -p"
 alias n=nnn
 alias tree="exa --tree"
 
