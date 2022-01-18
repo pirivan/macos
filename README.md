@@ -44,16 +44,19 @@ The following are packages I installed explicitly using `homebrew`:
 | micro    | https://micro-editor.github.io/ | Because I don't like `vi`! |
 | nnn      | https://github.com/jarun/nnn | A terminal file manager (1)|
 | rg       | https://github.com/BurntSushi/ripgrep | A replacement for `grep` |
+| rustup   | https://www.rust-lang.org/tools/install| The rust compiler and tools (2) |
 | tmux     | https://github.com/tmux/tmux | **The** terminal multiplexer |
 
   
 (1) install plugins with 
 `curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs | sh`
 
+(2) run `rustup-init` to install the compiler. Verify with `rustc --version`
+
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty micro nnn unzip rg tmux
+  brew install bat exa fd gh git glow htop jump kitty micro nnn unzip rg rustup tmux
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files

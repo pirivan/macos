@@ -19,5 +19,8 @@ export MICRO_TRUECOLOR=1
 export NNN_FIFO=/tmp/nnn.fifo
 export NNN_PLUG="j:autojump;p:preview-tui"
 
+# rust
+source $HOME/.cargo/env
+
 # set up environment
 setup_tmux
