@@ -42,6 +42,7 @@ The following are packages I installed explicitly using `homebrew`:
 | jump     | https://github.com/gsamokovarov/jump | Quick dir navigator |
 | kitty    | https://github.com/kovidgoyal/kitty | A lightweight terminal emulator |
 | micro    | https://micro-editor.github.io/ | Because I don't like `vi`! |
+| most     | https://www.jedsoft.org/most/index.html | Fancy pager |
 | nnn      | https://github.com/jarun/nnn | A terminal file manager (1)|
 | rg       | https://github.com/BurntSushi/ripgrep | A replacement for `grep` |
 | rustup   | https://www.rust-lang.org/tools/install| The rust compiler and tools (2) |
@@ -56,7 +57,7 @@ The following are packages I installed explicitly using `homebrew`:
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty micro nnn unzip rg rustup tmux
+  brew install bat exa fd gh git glow htop jump kitty micro most nnn unzip rg rustup tmux
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files

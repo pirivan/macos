@@ -121,7 +121,7 @@ export PYENV_ROOT=$(pyenv root)
 export KUBECONFIG=${KUBECONFIG:+$KUBECONFIG:}/Users/pirivan/.kube/config:/Users/pirivan/.kube/config.shopify.cloudplatform
 
 # misc
-export PAGER="bat -p"
+export PAGER="most"
 
 # aliases for interactive shells
 alias cat="bat -pP"
