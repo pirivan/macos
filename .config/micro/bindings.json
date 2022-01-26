@@ -1,12 +1,13 @@
 {
     "Alt-%": "command-edit:vsplit ",
-    "Alt-\'": "command-edit:hsplit ",
+    "Alt-'": "command-edit:hsplit ",
     "Alt-/": "command:comment",
+    "Alt-Q": "SaveAll,QuitAll",
+    "Alt-S": "SaveAll",
     "Alt-f": "command-edit:replace ",
     "Alt-q": "QuitAll",
     "Alt-s": "SaveAs",
-    "Alt-S": "SaveAll",
-    "Alt-Q": "SaveAll,QuitAll",
     "Ctrl-t": "command-edit:tab ",
     "CtrlUnderscore": "lua:comment.comment",
+    "F6": "command-edit:gorename "
 }

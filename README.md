@@ -41,18 +41,20 @@ The following are packages I installed explicitly using `homebrew`:
 | htop     | https://htop.dev/ | Interactive process viewer |
 | jump     | https://github.com/gsamokovarov/jump | Quick dir navigator |
 | kitty    | https://github.com/kovidgoyal/kitty | A lightweight terminal emulator |
-| micro    | https://micro-editor.github.io/ | Because I don't like `vi`! |
+| micro    | https://micro-editor.github.io/ | Because I don't like `vi`! (1)|
 | most     | https://www.jedsoft.org/most/index.html | Fancy pager |
-| nnn      | https://github.com/jarun/nnn | A terminal file manager (1)|
+| nnn      | https://github.com/jarun/nnn | A terminal file manager (2)|
 | rg       | https://github.com/BurntSushi/ripgrep | A replacement for `grep` |
-| rustup   | https://www.rust-lang.org/tools/install| The rust compiler and tools (2) |
+| rustup   | https://www.rust-lang.org/tools/install| The rust compiler and tools (3) |
 | tmux     | https://github.com/tmux/tmux | **The** terminal multiplexer |
 
+(1) install the Go plugin with
+`micro -plugin install go`
   
-(1) install plugins with 
+(2) install plugins with 
 `curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs | sh`
 
-(2) run `rustup-init` to install the compiler. Verify with `rustc --version`
+(3) run `rustup-init` to install the compiler. Verify with `rustc --version`
 
 
 * Run the following command to install the packages:
