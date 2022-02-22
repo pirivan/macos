@@ -24,7 +24,7 @@ A repo to host config files and notes about the setup of my Mac Pro laptop at Sh
 
 * Clone this repository
 
- 
+
 ## Homebrew packages
 
 The following are packages I installed explicitly using `homebrew`:
@@ -41,6 +41,7 @@ The following are packages I installed explicitly using `homebrew`:
 | htop     | https://htop.dev/ | Interactive process viewer |
 | jump     | https://github.com/gsamokovarov/jump | Quick dir navigator |
 | kitty    | https://github.com/kovidgoyal/kitty | A lightweight terminal emulator |
+| lua      | https://www.lua.org | An embeddable scripting language |
 | micro    | https://micro-editor.github.io/ | Because I don't like `vi`! (1)|
 | most     | https://www.jedsoft.org/most/index.html | Fancy pager |
 | nnn      | https://github.com/jarun/nnn | A terminal file manager (2)|
@@ -59,7 +60,7 @@ The following are packages I installed explicitly using `homebrew`:
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty micro most nnn unzip rg rustup tmux
+  brew install bat exa fd gh git glow htop jump kitty lua micro most nnn unzip rg rustup tmux
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files
