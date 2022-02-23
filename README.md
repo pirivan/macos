@@ -45,6 +45,7 @@ The following are packages I installed explicitly using `homebrew`:
 | [lua](https://www.lua.org) | An embeddable scripting language |
 | [micro](https://micro-editor.github.io/) | Because I don't like `vi`! (2)|
 | [most](https://www.jedsoft.org/most/index.html) | Fancy pager |
+| [nmap](https://nmap.org/) | A utility for network discovery and security auditing |
 | [nnn](https://github.com/jarun/nnn) | A terminal file manager (3)|
 | [rg](https://github.com/BurntSushi/ripgrep) | A replacement for `grep` |
 | [rustup](https://www.rust-lang.org/tools/install)| The rust compiler and tools (4) |
@@ -64,7 +65,7 @@ The following are packages I installed explicitly using `homebrew`:
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty lua micro most nnn unzip rg rustup tmux
+  brew install bat exa fd gh git glow htop jump kitty lua micro most nmap nnn unzip rg rustup tmux
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files
