@@ -85,7 +85,8 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
 else
-   export EDITOR='micro'
+   # export EDITOR='micro'
+   export EDITOR='emacsclient -t'
 fi
 
 # Compilation flags
@@ -125,6 +126,7 @@ export PAGER="most"
 
 # aliases for interactive shells
 alias cat="bat -pP"
+alias ec="emacsclient -t"
 alias gc-="git checkout -"
 alias gcmn="git commit --amend --no-edit"
 alias k=kubectl
