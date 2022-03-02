@@ -46,6 +46,8 @@ The following are packages I installed explicitly using `homebrew`:
 | [htop](https://htop.dev/)                           | Interactive process viewer                            |
 | [jump](https://github.com/gsamokovarov/jump)        | Quick dir navigator                                   |
 | [kitty](https://github.com/kovidgoyal/kitty)        | A lightweight terminal emulator                       |
+| [krew](https://github.com/kubernetes-sigs/krew)     | The plugin manager for the kubectl command-line tool  |
+| [kubectx](https://github.com/ahmetb/kubectx)        | kubectl context/namespace switch tool                 |
 | [lazygit](https://github.com/jesseduffield/lazygit) | A simple terminal UI for git commands (1)             |
 | [lua](https://www.lua.org)                          | An embeddable scripting language                      |
 | [micro](https://micro-editor.github.io/)            | Because I don't like `vi`! (2)                        |
@@ -70,7 +72,8 @@ The following are packages I installed explicitly using `homebrew`:
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty lua micro most nmap nnn unzip rg rustup tmux
+  brew install bat exa fd gh git glow htop jump kitty krew kubectxlua \
+  micro most nmap nnn unzip rg rustup tmux 
   ```
 
 * Change dir to this repo's clone and run the script `./config.sh` to set up all the required config files

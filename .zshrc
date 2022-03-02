@@ -130,6 +130,8 @@ alias ec="emacsclient -t"
 alias gc-="git checkout -"
 alias gcmn="git commit --amend --no-edit"
 alias k=kubectl
+alias kctx=kubectx
+alias kns=kubens
 alias ls=exa
 alias m=micro
 alias more="bat -p"
@@ -138,6 +140,7 @@ alias tree="exa --tree"
 
 # set PATH
 export PATH=$PYENV_ROOT/shims:$PATH
+export PATH="${PATH}:${HOME}/.krew/bin"
 
 # the jump "j" command'
 eval "$(jump shell)"
