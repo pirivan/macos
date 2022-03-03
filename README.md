@@ -45,34 +45,39 @@ The following are packages I installed explicitly using `homebrew`:
 | [glow](https://github.com/charmbracelet/glow)       | Render markdown on the CLI                            |
 | [htop](https://htop.dev/)                           | Interactive process viewer                            |
 | [jump](https://github.com/gsamokovarov/jump)        | Quick dir navigator                                   |
+| [k9s](https://k9scli.io/)                           | A terminal-based UI to interact with Kubernetes (1)   |
+| [kind](https://kind.sigs.k8s.io/)                   | A tool for running local Kubernetes clusters          |
 | [kitty](https://github.com/kovidgoyal/kitty)        | A lightweight terminal emulator                       |
 | [krew](https://github.com/kubernetes-sigs/krew)     | The plugin manager for the kubectl command-line tool  |
 | [kubectx](https://github.com/ahmetb/kubectx)        | kubectl context/namespace switch tool                 |
-| [lazygit](https://github.com/jesseduffield/lazygit) | A simple terminal UI for git commands (1)             |
+| [lazygit](https://github.com/jesseduffield/lazygit) | A simple terminal UI for git commands (2)             |
 | [lua](https://www.lua.org)                          | An embeddable scripting language                      |
-| [micro](https://micro-editor.github.io/)            | Because I don't like `vi`! (2)                        |
+| [micro](https://micro-editor.github.io/)            | Because I don't like `vi`! (3)                        |
 | [most](https://www.jedsoft.org/most/index.html)     | Fancy pager                                           |
 | [nmap](https://nmap.org/)                           | A utility for network discovery and security auditing |
-| [nnn](https://github.com/jarun/nnn)                 | A terminal file manager (3)                           |
+| [nnn](https://github.com/jarun/nnn)                 | A terminal file manager (4)                           |
 | [rg](https://github.com/BurntSushi/ripgrep)         | A replacement for `grep`                              |
-| [rustup](https://www.rust-lang.org/tools/install)   | The rust compiler and tools (4)                       |
+| [rustup](https://www.rust-lang.org/tools/install)   | The rust compiler and tools (5)                       |
 | [tmux](https://github.com/tmux/tmux)                | **The** terminal multiplexer                          |
 
 (1) install with
+`brew install derailed/k9s/k9s`
+
+(2) install with
 `brew install jesseduffield/lazygit/lazygit`
 
-(2) install the Go plugin with
+(3) install the Go plugin with
 `micro -plugin install go`
   
-(3) install plugins with 
+(4) install plugins with 
 `curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs | sh`
 
-(4) run `rustup-init` to install the compiler. Verify with `rustc --version`
+(5) run `rustup-init` to install the compiler. Verify with `rustc --version`
 
 
 * Run the following command to install the packages:
   ```
-  brew install bat exa fd gh git glow htop jump kitty krew kubectxlua \
+  brew install bat exa fd gh git glow htop jump kind kitty krew kubectxlua \
   micro most nmap nnn unzip rg rustup tmux 
   ```
 
