@@ -7,7 +7,7 @@
  '(cua-mode t nil (cua-base))
  '(global-display-line-numbers-mode t)
  '(package-selected-packages
-   '(xclip zop-to-char zenburn-theme yaml-mode which-key volatile-highlights undo-tree super-save smartrep smartparens rust-mode ron-mode rainbow-mode rainbow-delimiters operate-on-number nlinum move-text magit lua-mode lsp-ui imenu-anywhere hl-todo guru-mode gotest go-projectile git-timemachine git-modes gist flycheck-rust expand-region exec-path-from-shell elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux counsel company-go company-anaconda cargo browse-kill-ring anzu ag ace-window))
+   '(dockerfile-mode xclip zop-to-char zenburn-theme yaml-mode which-key volatile-highlights undo-tree super-save smartrep smartparens rust-mode ron-mode rainbow-mode rainbow-delimiters operate-on-number nlinum move-text magit lua-mode lsp-ui imenu-anywhere hl-todo guru-mode gotest go-projectile git-timemachine git-modes gist flycheck-rust expand-region exec-path-from-shell elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux counsel company-go company-anaconda cargo browse-kill-ring anzu ag ace-window))
  '(size-indication-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
