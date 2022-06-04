@@ -131,6 +131,7 @@ alias gc-="git checkout -"
 alias gcmn="git commit --amend --no-edit"
 alias k=kubectl
 alias kctx=kubectx
+alias kngx="kubectl kngx"
 alias kns=kubens
 alias ls=exa
 alias m=micro
@@ -140,7 +141,7 @@ alias tree="exa --tree"
 
 # set PATH
 export PATH=$PYENV_ROOT/shims:$PATH
-export PATH="${PATH}:${HOME}/.krew/bin"
+export PATH="${PATH}:${HOME}/.krew/bin:${HOME}/bin"
 
 # the jump "j" command'
 eval "$(jump shell)"
