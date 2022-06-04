@@ -37,12 +37,15 @@ The following are packages I installed explicitly using `homebrew`:
 | Package                                             | Comment                                               |
 |-----------------------------------------------------|-------------------------------------------------------|
 | [bat](https://github.com/sharkdp/bat)               | A supercharged `cat`                                  |
+| [broot](https://github.com/Canop/broot)             | A better way to navigate directories                  |
 | [emacs](https://www.gnu.org/software/emacs/)        | The real text editor (see section below)              |
 | [exa](https://the.exa.website/)                     | Alternative to `ls`                                   |
 | [fd](https://github.com/sharkdp/fd)                 | Fast alternative to `find`                            |
 | [gh](https://cli.github.com/)                       | The GitHub CLI                                        |
 | [git](https://git-scm.com/)                         | The latest git (apple's is outdated)                  |
+| [glances](https://github.com/nicolargo/glances)     | A system monitoring tool, `top` replacement           |
 | [glow](https://github.com/charmbracelet/glow)       | Render markdown on the CLI                            |
+| [gping](https://github.com/orf/gping)               | Multi-target graphical ping for the terminal          |
 | [htop](https://htop.dev/)                           | Interactive process viewer                            |
 | [jump](https://github.com/gsamokovarov/jump)        | Quick dir navigator                                   |
 | [k9s](https://k9scli.io/)                           | A terminal-based UI to interact with Kubernetes (1)   |
