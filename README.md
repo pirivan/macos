@@ -2,6 +2,10 @@
 title: MacOS Laptop Setup
 ---
 
+---
+**Warning:** This repository is deprecated. See my [dotfiles](https://gitlab.com/pirivan/dotfiles) repo instead.
+---
+
 # macos laptop setup
 
 A repo to host config files and notes about the setup of my Mac Pro laptop at Shopify
